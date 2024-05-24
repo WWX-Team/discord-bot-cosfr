@@ -2,13 +2,9 @@ import discord, os
 from discord.ext import commands
 
 
-
-my_secret = os.environ['bot_token']
-
-token = os.getenv("bot_token")
-bot_name = "My First Bot"
+token = os.getenv("1240754119669579797")
+bot_name = "scratch portal"
 cmd_prefix = "/"
-mod_role = "Mod Role Name"
 
 client = commands.Bot(command_prefix = cmd_prefix, intents = discord.Intents.all())
 
